@@ -34,7 +34,7 @@ ticker = activos[activo_nombre]
 
 # Rango de fechas
 st.sidebar.header("Configuración")
-fecha_inicio = st.sidebar.date_input("Fecha inicio", pd.to_datetime("2023-01-01"))
+fecha_inicio = st.sidebar.date_input("Fecha inicio", pd.to_datetime("2024-01-01"))
 fecha_fin = st.sidebar.date_input("Fecha fin", pd.to_datetime("today"))
 
 # Descargar datos
