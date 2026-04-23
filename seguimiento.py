@@ -21,7 +21,7 @@ st.title("📈 Dashboard Financiero")
 activos = {
     "Petróleo (BZ=F)": "BZ=F",
     "S&P 500 ETF (SPY)": "SPY",
-    "USD/MXN (MXN=N)": "MXN=N",
+    "USD/MXN (MXN=X)": "MXN=N",
     "Bimbo (BIMBOA.MX)": "BIMBOA.MX",
     "VIX": "^VIX",
     "Dólar Index (DX-Y.NYB)": "DX-Y.NYB",
