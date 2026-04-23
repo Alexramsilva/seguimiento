@@ -15,7 +15,7 @@ import matplotlib.pyplot as plt
 # Configuración de la página
 st.set_page_config(page_title="Dashboard Financiero", page_icon="📈")
 
-st.title("📈 Dashboard Financiero con yfinance")
+st.title("📈 Dashboard Financiero")
 
 # Lista de activos
 activos = {
@@ -25,7 +25,8 @@ activos = {
     "Bimbo (BIMBOA.MX)": "BIMBOA.MX",
     "VIX": "^VIX",
     "Dólar Index (DX-Y.NYB)": "DX-Y.NYB",
-    "Bitcoin (BTC-USD)": "BTC-USD"
+    "Bitcoin (BTC-USD)": "BTC-USD",
+    "SAP (SAP)": "SAP"
 }
 
 # Selector desplegable
